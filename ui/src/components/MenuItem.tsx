@@ -1,6 +1,4 @@
 import '@fortawesome/fontawesome-free/css/all.css'
-import { Activity, Copy, Globe, Grid, Home, List, Monitor, Navigation, Percent, Truck, Users, Zap } from "react-feather";
-
 
 interface MenuItemsProps {
     icon: React.ComponentType<any>,
