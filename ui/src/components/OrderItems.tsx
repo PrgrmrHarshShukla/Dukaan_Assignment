@@ -1,9 +1,9 @@
 
 interface OrderItemProp {
-    id: string,
-    date: string,
-    amount: number,
-    fees: number
+    id: string;
+    date: string;
+    amount: number;
+    fees: number;
 }
 
 const OrderItems: React.FC<OrderItemProp> = ({ id, date, amount, fees }) => {

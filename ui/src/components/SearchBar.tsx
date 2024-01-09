@@ -1,7 +1,7 @@
 
 import * as Icon from 'react-feather';
 interface SearchBarProps {
-    placeholder: string
+    placeholder: string;
 }
 
 

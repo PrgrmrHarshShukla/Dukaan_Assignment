@@ -1,9 +1,9 @@
 import MenuItem from "./MenuItem"
-import menulist from "./MenuList"
+import Menulist from "./MenuList"
 
 function Menu() {
 
-    const list = menulist.map(({icon, name}) => 
+    const list = Menulist.map(({icon, name}) => 
         <MenuItem icon={icon} name={name} />
     )
 

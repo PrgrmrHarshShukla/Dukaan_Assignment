@@ -1,50 +1,52 @@
+import { Activity, Copy, Globe, Grid, Home, List, Monitor, Navigation, Percent, Truck, Users, Zap } from "react-feather";
+
 export default [
     {
-        icon: "Home",
+        icon: Home,
         name: "Home"
     },
     {
-        icon: "List",
+        icon: List,
         name: "Orders"
     },
     {
-        icon: "Grid",
+        icon: Grid,
         name: "Products"
     },
     {
-        icon: "Truck",
+        icon: Truck,
         name: "Delivery"
     },    
     {
-        icon: "Globe",
+        icon: Globe,
         name: "Marketing"
     },    
     {
-        icon: "Activity",
+        icon: Activity,
         name: "Analytics"
     },    
     {
-        icon: "Copy",
+        icon: Copy,
         name: "Payments"
     },    
     {
-        icon: "Navigation",
+        icon: Navigation,
         name: "Tools"
     },    
     {
-        icon: "Percent",
+        icon: Percent,
         name: "Discounts"
     },    
     {
-        icon: "Users",
+        icon: Users,
         name: "Audience"
     },    
     {
-        icon: "Monitor",
+        icon: Monitor,
         name: "Appearance"
     },    
     {
-        icon: "Zap",
+        icon: Zap,
         name: "Plugins"
     },    
 ]
